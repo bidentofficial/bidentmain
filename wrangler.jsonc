@@ -1,0 +1,13 @@
+{
+  "name": "bidentmain",
+  "main": "src/worker.js",
+  "compatibility_date": "2026-09-10",
+  "assets": {
+    "directory": "./public",
+    "binding": "ASSETS",
+    "run_worker_first": ["/api/*"]
+  },
+  "kv_namespaces": [
+    { "binding": "REVIEWS","id": "f0785c79fb6c45e7ac8cd7493e549e97" }
+  ]
+}
